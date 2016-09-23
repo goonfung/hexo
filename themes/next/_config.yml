@@ -6,7 +6,7 @@
 favicon: /favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "mind,mindful,samatha,meditation,止观,禅修"
+keywords: "goonfung,mind,mindful,samatha,meditation,止观,禅修"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -14,7 +14,7 @@ keywords: "mind,mindful,samatha,meditation,止观,禅修"
 rss:
 
 # Specify the date when the site was setup
-#since: 2015
+since: 2016
 
 # Canonical, set a canonical link tag in your hexo, you could use it for your SEO of blog.
 # See: https://support.google.com/webmasters/answer/139066
@@ -102,7 +102,7 @@ font:
   logo:
     external: true
     family:
-    size:
+    size: 16px
 
   # Font settings for <code> and code blocks.
   codes:
@@ -201,7 +201,7 @@ custom_logo:
 # Available value:
 #    normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
-highlight_theme: normal
+highlight_theme: night eighties
 
 
 # Automatically scroll page to section which is under <!-- more --> mark.
@@ -274,10 +274,11 @@ mathjax:
 # Make duoshuo show UA
 # user_id must NOT be null when admin_enable is true!
 # you can visit http://dev.duoshuo.com get duoshuo user id.
-duoshuo_info:
-  ua_enable: true
-  admin_enable: false
-  user_id: 0
+
+#duoshuo_info:
+#  ua_enable: true
+#  admin_enable: false
+#  user_id: 0
   #admin_nickname: Author
 
 
